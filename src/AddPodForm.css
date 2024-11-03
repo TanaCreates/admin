@@ -1,0 +1,67 @@
+.container {
+  width: 100%;
+  padding: 20px;
+}
+
+.searchInput {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.categoryButtons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.categoryButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.podsList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.podContainer {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  width: calc(33.333% - 20px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.toggleContainer {
+  margin-bottom: 15px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.submitButton, .resetButton, .editButton, .deleteButton {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.deleteButton {
+  background-color: #e74c3c;
+}
