@@ -1,0 +1,71 @@
+/* Container for all requests */
+.requests-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two containers per row */
+    gap: 20px; /* Spacing between containers */
+    padding: 20px 0;
+  }
+  
+  /* General container for each request */
+  .request-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    font-family: 'Georgia', serif;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* Left section for name, podId, date, time */
+  .request-left {
+    width: 40%;
+  }
+  
+  .request-left p {
+    margin: 5px 0;
+  }
+  
+  /* Middle section for blankets, pillows, extra storage */
+  .request-middle {
+    width: 40%;
+    padding-left: 200px;
+  }
+  
+  .request-middle div {
+    text-align: center;
+  }
+  
+  .request-middle p {
+    margin: 0;
+  }
+  
+  /* Right section for the button */
+  .request-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 25%;
+  }
+  
+  /* Style for the button */
+  .request-right button {
+    background-color: #1a3d2f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 25px;
+  }
+  
+  .request-right button:hover {
+    background-color: #145c3d;
+  }
+  
+  /* Horizontal rule between requests */
+  .request-container + .request-container {
+    border-top: 1px solid #ddd;
+  }
+  
